@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MyAnimeHub</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #fff;
+            font-family: 'Attack on Titan Font', sans-serif;
+            text-align: center;
+            margin: 0;
+        }
+        .banner {
+            width: 100%;
+            height: 250px;
+            background: url('YOUR_IMAGE_URL') no-repeat center center/cover;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .site {
+            background: rgba(40, 40, 40, 0.8);
+            border-radius: 12px;
+            padding: 10px;
+            transition: transform 0.3s;
+        }
+        .site:hover {
+            transform: scale(1.1);
+        }
+        .site img {
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+        }
+        .site a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner"></div>
+    <h2>Free Hindi Dub Anime Websites</h2>
+    <div class="grid">
+        <div class="site">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/9anime-logo.png" alt="9Anime">
+            <a href="https://9anime.to" target="_blank">9Anime</a>
+        </div>
+        <div class="site">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Gogoanime-logo.png" alt="Gogoanime">
+            <a href="https://gogoanime.pe" target="_blank">Gogoanime</a>
+        </div>
+        <div class="site">
+            <img src="https://zoro.to/favicon.ico" alt="Zoro">
+            <a href="https://zoro.to" target="_blank">Zoro</a>
+        </div>
+    </div>
+</body>
+</html>
